@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container { 
+    margin: auto;
+    padding: 0;
+    max-width: 1280px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(199, 74, 74);
+}
+
+.header3 {
+    background-color: rgba(83, 53, 12, 0.712);
+}
+
+#header2-unique {
+    background-color: aqua;
+    color: black;
+}
+
+[title] {
+    background-color: rgba(53, 157, 30, 0.771);
+    color: black;
+}
+
+.order-list li:first-child {
+    background-color: rgb(173, 36, 43);
+}
+
+.container li {
+    background-color: rgb(57, 32, 196);
+}
+
+div > p {
+    background-color: blueviolet;
+}
+
+h4{
+background-color: aquamarine;
+}
+
+section p {
+    background-color: crimson;
+}
+
+.order-list #unique-list-item {
+    background-color: rgb(203, 104, 23)
+}
+
+h3 + p {
+    background-color: cornflowerblue;
+}
+
+.unorder-list li:nth-last-child(2) p {
+    background-color: chartreuse;
+}

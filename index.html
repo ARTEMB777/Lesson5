@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Застосовується до тегів h1, вага 1</h1>
+
+        <div>
+            <h2 id="header2-unique">Застосовується до id header2-unique, вага 100</h2>
+            <p title="hello">Застосовується до атрибутів title, вага 10</p>
+        </div>
+
+        <div>
+            <h3 class="header3"><b>Застосовується до класу header3, вага 10</b></h3>
+        </div>
+
+        <div class="order-bar">
+            <ol class="order-list">
+                <li>Застосовується для класу order-list, обираючи всередині нього перший елемент li, вага 21 </li>
+                <li>Застосовується до всіх елементів li, класу container, незалежно від рівня вкладеності, вага 11</li>
+            </ol>
+        </div>
+
+        <div>
+            <p>Застосовується до безпосередньо дочірнього елемента p, тега div, вага 2 </p>
+            <section>
+                <h4>Застосовується до тега h4, вага 1</h4>
+                <p>Застосовується до тега p, який знаходиться всередині елементу section, вага 2</p>
+            </section>
+        </div>
+
+        <div>
+            <ul class="order-list">
+                <li id="unique-list-item">Застосовується до всіх id unique-list-item, що перебувають всередині класу
+                    order-list, вага 110 </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="header3">Застосовується до класу header3, вага 10</h3>
+            <p>Застосовується до тега p, який є безпосередньо сусіднім елементом h3, вага 2</p>
+        </div>
+
+        <div class="unorder-bar">
+            <ul class="unorder-list">
+                <li>
+                    <p>Застосовується до всіх елементів li, класу container, незалежно від рівня вкладеності, вага 11
+                    </p>
+                </li>
+                <li>
+                    <p>Застосовується до класу unorder-list, 2го елементу li і його дочірнього тега p, вага 22</p>
+                </li>
+                <li>
+                    <p>Застосовується до всіх елементів li, класу container, незалежно від рівня вкладеності, вага 11
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
